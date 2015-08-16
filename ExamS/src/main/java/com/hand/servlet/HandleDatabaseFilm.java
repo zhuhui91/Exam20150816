@@ -91,7 +91,7 @@ showBean.setShowPage(showPage);
 int pageSize=showBean.getPageSize();
 String uri="jdbc:mysql://localhost:3306/sakila";
 try{ 
-con=DriverManager.getConnection(uri,"sakila","");
+con=DriverManager.getConnection(uri,"root","");
 Statement sql=con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
                                  ResultSet.CONCUR_READ_ONLY);
 ResultSet rs=sql.executeQuery("SELECT * FROM film");
