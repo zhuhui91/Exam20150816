@@ -1,0 +1,6 @@
+执行：
+1、在命令行中转到工程目录：
+2、mvn clean
+3、mvn compile
+4、mvn tomcat:run 
+5、在浏览器输入网址:http://localhost:8080/ExamS/index.jsp
