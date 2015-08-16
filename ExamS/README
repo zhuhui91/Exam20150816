@@ -4,3 +4,6 @@
 3、mvn compile
 4、mvn tomcat:run 
 5、在浏览器输入网址:http://localhost:8080/ExamS/index.jsp
+数据库账号：root
+密码:""
+(密码为空)
